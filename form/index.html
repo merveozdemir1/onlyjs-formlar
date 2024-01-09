@@ -6,32 +6,42 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="https://formsubmit.co/merveeozdemir33@gmail.com" method="POST">
+    <form  action="https://formsubmit.co/merveeozdemir33@gmail.com" method="POST">
         <div>
          <label for="first_name">İsim</label>
-         <input type="text" id="first_name">
+         <input type="text" id="first_name" name="first_name">
         </div>
         <br>
         <div>
             <label for="last_name">Soyİsim</label>
-            <input type="text" id="last_name">
+            <input type="text" id="last_name" name="last_name">
         </div>
         <br>
         <div>
             <label for="email">Email</label>
-            <input type="email" id="email">
+            <input type="email" id="email" name="email">
         </div>
         <br>
         <div>
             <label for="age">Yaş</label>
-            <input type="number" id="age" min="15" max="70">
+            <input type="number" id="age" min="15" max="70" name="age">
         </div>
         <br>
         <div>
             <label for="your_message">Mesajınız</label><br>
-            <textarea id="your_message" rows="4" cols="auto">
+            <textarea id="your_message" rows="4"  name="your_message"></textarea>
         </div>
         <br>
+        <div>
+            <label for="like">Sayfamızı Ne Kadar Beğendiniz?</label><br>
+            <input type="range" id="like"name="like">
+        </div>
+        <br>
+        
+        <button type="submit">Gönder</button>
+        <form action="https://formsubmit.co/merveeozdemir33@gmail.com" method="POST" />
+    
+        
    </form>
     
 </body>
